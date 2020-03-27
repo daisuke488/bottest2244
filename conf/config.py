@@ -36,7 +36,7 @@ SERVER_ID = "bffbaf07c0df4948a50a90d12db91958"
 SECRET_KEY_NAME = "private_20200326103503.key"
 
 # LOCAL ADDRESS
-LOCAL_ADDRESS = "https://bottest2288.herokuapp.com/"
+LOCAL_ADDRESS = "https://botest2288.herokuapp.com/"
 
 # DB config
 DB_HOST = "ec2-3-223-21-106.compute-1.amazonaws.com"
