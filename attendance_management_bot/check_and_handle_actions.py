@@ -105,7 +105,7 @@ class CheckAndHandleActions:
             raise HTTPError(403, "'accountId' is None.")
 
         type = body.get("type", "")
-        
+
         content = body.get("content", None)
         if content is not None:
             self.__content_type = content.get("type", "")
@@ -165,6 +165,7 @@ class CheckAndHandleActions:
                 self.__user_message = self.__text
             self.__handle = confirm_out
 
+        print(self.__handle)
         if self.__handle is not None:
             yield self.__handle(self.__account_id,
                                 self.__current_date,
