@@ -164,7 +164,7 @@ class CheckAndHandleActions:
             if self.__post_back is None:
                 self.__user_message = self.__text
             self.__handle = confirm_out
-        LOGGER.info("self.__handle:%s", self.__handleri)
+        LOGGER.info("self.__handle:%s", self.__handle)
         if self.__handle is not None:
             yield self.__handle(self.__account_id,
                                 self.__current_date,
